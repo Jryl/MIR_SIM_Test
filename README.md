@@ -59,7 +59,6 @@ cd ~/catkin_ws
 catkin_make -DCMAKE_BUILD_TYPE=RelWithDebugInfo
 ```
 
-
 # 3. Gazebo demo (existing map)
 ```bash
 roslaunch mir_navigation mir_start.launch
@@ -75,4 +74,10 @@ roslaunch mir_navigation mir_mapping.launch
 # 5. Teleoperate the robot with keyboard (optional)
 ```bash
 rosrun teleop_twist_keyboard teleop_twist_keyboard.py
+```
+
+# 6. Compile the python file
+Find the file (.../mir_driver/nodes) and open the terminal in this folder
+```bash
+chmod +x rep117_filter.py
 ```
