@@ -1,0 +1,5 @@
+<launch>
+  <include file="$(find mir_navigation)/launch/amcl.launch">
+  </include>
+
+</launch>
