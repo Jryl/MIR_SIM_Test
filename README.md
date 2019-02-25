@@ -26,6 +26,7 @@ For a binary install, it suffices to run this command:
 ```bash
 sudo apt install ros-kinetic-mir-robot
 sudo apt install ros-kinetic-navigation
+sudo apt install ros-kinetic-plotjuggler
 ```
 See the tables at the end of this README for a list of ROS distros for which
 binary packages are available.
@@ -39,7 +40,7 @@ cd ~/catkin_ws/src/
 
 ### Clone mir_robot into the catkin workspace
 ```bash
-git clone https://github.com/Jryl/MIR200_Sim_Demo.git
+git clone https://github.com/Jryl/MIR_SIM_Test.git
 ```
 ### Install all dependencies
 ```bash
